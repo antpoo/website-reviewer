@@ -1,0 +1,51 @@
+button {
+    text-align: center;
+    border-radius: 4px;
+    border: 2px solid;
+    background-color: white;
+    margin-top: 4;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    color: white;
+}
+
+.small_button {
+    border-color: lightblue;
+}
+
+.small_button:hover {
+    background-color: lightblue;
+}
+
+#copy_notif {
+    color: lightgreen;
+}
+
+#cur_site {
+    font-weight: bold;
+}
+
+#main_url {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.rev_button {
+    display: block;
+    border-color: firebrick;
+    padding: 8px 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.rev_button:hover {
+    background-color: firebrick;
+}
+
+#review {
+    display: none;
+}
+

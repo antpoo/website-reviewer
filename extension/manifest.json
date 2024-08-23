@@ -4,10 +4,14 @@
   "description": "Extension to Review Websites",
   "version": "1.0",
   "action": {
-    "default_popup": "popup/popup.html",
+    "default_popup": "popups/main_popup/main.html",
     "default_icon": "icon.png"
   },
   "permissions": [
-    "tabs"
-  ]
+    "tabs",
+    "activeTab"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
 }
